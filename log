@@ -61,3 +61,9 @@ list.c:97:28: error: ‘NuevoNodo’ undeclared (first use in this function); di
 list.c:97:28: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 fdd2e06
+Fri 24 Mar 2023 06:40:47 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+9b70b47
