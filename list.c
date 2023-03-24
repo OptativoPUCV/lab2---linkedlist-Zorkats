@@ -113,7 +113,7 @@ void * popCurrent(List * list) {
 
   void * auxiliar;
 
-  if(list->current->data)
+  if(list->current == NULL)
   {
     return NULL;
   }
