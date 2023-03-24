@@ -26,3 +26,20 @@ Fri 24 Mar 2023 12:46:16 AM UTC:
  tests:  9|3
 total_score: 35/70
 581c205
+Fri 24 Mar 2023 06:33:25 PM UTC: 
+ list.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:69:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   69 |   if (list->head == NULL)
+      |   ^~
+list.c:71:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   71 |     list -> tail = nuevoNodo;
+      |     ^~~~
+list.c:73:3: error: ‘else’ without a previous ‘if’
+   73 |   else
+      |   ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a06e88d
