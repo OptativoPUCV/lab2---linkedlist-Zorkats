@@ -49,3 +49,15 @@ Fri 24 Mar 2023 06:33:47 PM UTC:
  tests:  10|2
 total_score: 45/70
 756c6de
+Fri 24 Mar 2023 06:40:35 PM UTC: 
+ list.c | 37 +++++++++++++++++++++++++++++++++++++
+ 1 file changed, 37 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:97:28: error: ‘NuevoNodo’ undeclared (first use in this function); did you mean ‘nuevoNodo’?
+   97 |     list-> current->next = NuevoNodo;
+      |                            ^~~~~~~~~
+      |                            nuevoNodo
+list.c:97:28: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+fdd2e06
